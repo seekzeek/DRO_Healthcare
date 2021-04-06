@@ -16,14 +16,14 @@ const PRODUCTDATA = [
   },
   {
     productName: "Keztil syrup",
-    productImg: Promomed,
+    productImg: meds2,
     productType: `Sainbury's healthcare`,
     productmg: "Capsules - 200mg",
     productPrice: "1200",
   },
   {
     productName: "Ibuprofen",
-    productImg: meds1,
+    productImg: Ibuprofen,
     productType: `Sainbury's healthcare`,
     productmg: "Capsules - 200mg",
     productPrice: "200",
@@ -75,14 +75,14 @@ const BAGITEMS = [
   },
   {
     item: "Azithromycin Dry",
-    itemImg: Ibuprofen,
+    itemImg: meds2,
     itemNumber: "1",
     itemType: "Syrup",
     itemPrice: "945",
   },
   {
     item: "Emzovasc-5",
-    itemImg: Ibuprofen,
+    itemImg: Promomed,
     itemNumber: "1",
     itemType: "Tablet -5mg",
     itemPrice: "335",
