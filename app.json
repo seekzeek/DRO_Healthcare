@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "healthcare",
-    "slug": "healthcare",
+    "name": "Healthcare",
+    "slug": "Healthcare",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,13 +17,20 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.medic.Healthcare",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.medic.Healthcare",
+      "versionCode": 1
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#9f5de2"
     },
     "web": {
       "favicon": "./assets/favicon.png"
